@@ -1,0 +1,18 @@
+/* classes que vão em toodas */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+container{
+    width: 85%;
+    margin: 0 auto;
+}
+
