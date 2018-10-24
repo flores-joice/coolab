@@ -1,5 +1,22 @@
+.header-index {
+  background-image: url("../assest/banner.jpg");
+  background-size: cover;
+  height: 30rem;
+  background-color: aqua;
+}
+
+.header-btn {
+  background-color:  #EA3963;
+  
+}
+
+.bg-green {
+  background-color: rgba(33, 166, 144, 0.534);
+  height: 30rem;
+}
+
 .img-logo {
-    width: 100%;
+    width: 120px;
   }
   
   .contato-img {
@@ -32,6 +49,10 @@
     .nav-3 .nav-4 {
       display: block;
        justify-content: center;
+    }
+
+    .nav-link-barra {
+      display: none;
     }
   
   }
