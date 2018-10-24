@@ -6,6 +6,10 @@
     font-size: 10px;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 h1 {
     font-family: "Montserrat Alternates";
     font-weight: 800;
@@ -29,6 +33,8 @@ p {
 
 .main-projetos {
     background-color: #E7EBF4;
+    margin: 0;
+    padding-bottom: 45px;
 }
 
 .row-projetos {
@@ -70,17 +76,17 @@ p {
     color: #ffffff;
 }
 
-.card-projetos-body:hover {
+.card-projetos:hover .card-projetos-body {
     background-color: #EA3963;
     transition: all 0.5s;
 }
 
-.card-projetos-body:hover .card-projetos-title {
+.card-projetos:hover .card-projetos-title {
     color: #ffffff;
     transition: all 0.5s;
 }
 
-.card-projetos-body:hover .card-projetos-text {
+.card-projetos:hover .card-projetos-text {
     color: #ffffff;
     transition: all 0.5s;
 }
