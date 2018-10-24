@@ -106,8 +106,13 @@ p {
 
 .card-footer-noticias-img {
     height: 180px;
+}
+
+.card-footer-noticias-img img {
+    height: 100%;
+    width: 100%;
     object-position: center;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .card-footer-noticias-body {
@@ -120,7 +125,7 @@ p {
     color: #21A68F;
     font-weight: 800;
     font-size: 1.8rem;
-    padding-bottom: 15px;
+    padding-bottom: 45px;
 }
 
 .card-footer-noticias-data {
