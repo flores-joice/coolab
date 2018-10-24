@@ -1,0 +1,72 @@
+*{
+    background-color: #E7EBF4;
+}
+
+/* footer */
+.container-quemsomos{
+width: 70%;
+margin: 0 auto;
+
+margin-top: 50px;
+}
+
+.titulo-quemsomos{
+    color: rgb(28, 40, 56) ;
+		font-size: 26px;
+		margin-bottom: 35px;
+		margin-top: 10px;
+		font-weight: 900;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul .sobre-list:before{
+    content: '•';
+    
+    color: #44B8A5;
+
+}
+
+.hr{
+    border-bottom: 2px solid #a5a5a5;
+    padding: 40px;
+   }
+
+   
+   /* .coolab-trabalhos-imagesicon{
+    height: 70px;
+    display: flex;
+    align-items: flex-end;
+  
+ }
+ .coolab-trabalhos-imagesicon  img{
+      /* width: 55%; */
+      /* max-width: 20vh;
+    
+ } */ 
+
+ .card-quemsomos{
+    background-color: #e7ebf4;
+    position: relative;
+   border: none;
+ }
+
+ .card-quemsomos img{
+     width: 20vh;
+ }
+
+
+ .coolab-trabalhos-imagesicon{
+    height: 70px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+ }
+ .coolab-trabalhos-imagesicon  img{
+      /* width: 55%; */
+      max-width: 90px;
+      max-height: 88px;
+ }
