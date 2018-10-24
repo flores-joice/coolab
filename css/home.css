@@ -19,11 +19,12 @@
     padding-bottom: 45px;
 }
 
-.header-text{
-    font-size: 1.3rem;
-}
-
 .header-button{
     width: 140px;
     border-radius: 8px;
 }
+
+.header-tittle{
+    font-size: 1.3rem;
+}
+
