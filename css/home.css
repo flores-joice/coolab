@@ -9,7 +9,7 @@
 }
 
 .header{
-    background-image: url("../img/download.jpg");
+    background-image: url("../assest/banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 308px;
@@ -21,4 +21,9 @@
 
 .header-text{
     font-size: 1.3rem;
+}
+
+.header-button{
+    width: 140px;
+    border-radius: 8px;
 }
