@@ -3,8 +3,22 @@
     margin-left: 10%;
 }
 
+.nav-home{
+    
+
+}
+
 .header{
     background-image: url("../img/download.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 308px;
+}
+
+.header-primary{
+    padding-bottom: 45px;
+}
+
+.header-text{
+    font-size: 1.3rem;
 }
