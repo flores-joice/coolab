@@ -5,33 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style-contato.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,900" rel="stylesheet">
     <title>Contato</title>
 </head>
 
 <body>
-    <header class="header flex">
-        <div class="nav flex bg-dark container">
-            <div class="nav-logo flex">
-                <a href="index.html" class="nav-logo-img"><img src="assest/logo/coolab_logo_branco.png" alt=""></a>
-            </div>
-            <nav class="nav-menu flex">
-                <ul class="nav-menu-list flex">
-                    <li class="nav-menu-list-item"><a href="quemsomos.html">Quem Somos</a></li>
-                    <li class="nav-menu-list-item"><a href="comoparticipar.html">Como Participar</a></li>
-                    <li class="nav-menu-list-item"><a href="projetos.html">Projetos</a></li>
-                    <li class="nav-menu-list-item"><a href="blog.html">Blog</a></li>
-                    <li class="nav-menu-list-item"><a href="documentacao.html">Documentação</a></li>
-                    <li class="nav-menu-list-item"><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="header">
+        <!-- COLAR A NAV BAR -->
     </header>
     <main class="main">
-
+        <div class="contato">
+            <div class="container">
+                <div class="container-menor">
+                    <h1>Contato</h1>
+                    <form class="contato-form">
+                        <div class="form-group">
+                            <label for="inputName"></label>
+                            <input type="text" class="form-control" id="inputName" name="name" aria-describedby="nameHelp" placeholder="Seu nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail"></label>
+                            <input type="email" class="form-control" id="inputEmail" name="email" aria-describedby="emailHelp" placeholder="Seu email">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputSubject"></label>
+                            <input type="text" class="form-control" id="inputSubject" name="subject" aria-describedby="subjectHelp" placeholder="Assunto">
+                        </div>
+                        <div class="form-group">
+                            <label for="textareaForm"></label>
+                            <textarea class="form-control" id="textareaForm" name="text" rows="8" placeholder="Sua mensagem"></textarea>
+                        </div>
+                        <div class="button"><button type="submit" class="btn btn-primary">Enviar</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
-    <script src="js/script.js"></script>
+    <footer class="footer">
+        <!-- COLAR O FOOTER -->
+    </footer>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script-contato.js"></script>
 </body>
 
 </html>
