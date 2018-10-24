@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style-contato.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/joice.css">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,900" rel="stylesheet">
     <title>Contato</title>
 </head>
 
 <body>
+
     <nav class="nav-margem navbar navbar-expand-lg navbar-dark bg-dark ">
+
         <div class="container d-flex">
             <a class="navbar-brand col-2" href="index.html"><img src="assest/logo/coolab_logo_branco.png" alt="" class="img-logo img-responsive"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -42,9 +47,36 @@
             </div>
         </div>
     </nav>
-    <main class="main">
 
+    <main class="main">
+        <div class="contato">
+            <div class="container">
+                <div class="container-menor">
+                    <h1>Contato</h1>
+                    <form class="contato-form">
+                        <div class="form-group">
+                            <label for="inputName"></label>
+                            <input type="text" class="form-control" id="inputName" name="name" aria-describedby="nameHelp" placeholder="Seu nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail"></label>
+                            <input type="email" class="form-control" id="inputEmail" name="email" aria-describedby="emailHelp" placeholder="Seu email">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputSubject"></label>
+                            <input type="text" class="form-control" id="inputSubject" name="subject" aria-describedby="subjectHelp" placeholder="Assunto">
+                        </div>
+                        <div class="form-group">
+                            <label for="textareaForm"></label>
+                            <textarea class="form-control" id="textareaForm" name="text" rows="8" placeholder="Sua mensagem"></textarea>
+                        </div>
+                        <div class="button"><button type="submit" class="btn btn-primary">Enviar</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
+
     <footer class="footer bg-dark navbar-dark  ">
         <div class="footer-div d-flex align-items-center justify-content-between container py-3">
             <nav class="nav-1 navbar navbar-dark ">
@@ -82,6 +114,10 @@
         <!-- </div> -->
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script-contato.js"></script>
 </body>
 
 </html>
