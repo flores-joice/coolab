@@ -3,16 +3,18 @@
     margin-left: 10%;
 }
 
-.nav-home{
+.primary-home{
+    position: absolute;
+    color: white;
     
-
 }
 
+/* CABEÇALHO IMAGEM */
 .header{
-    background-image: url("../assest/banner.jpg");
+    background-color: #42B5A2;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 308px;
+    min-height: 360px;
 }
 
 .header-primary{
@@ -28,3 +30,12 @@
     font-size: 1.3rem;
 }
 
+/* SEÇÃO PROJETO DA PAG HOME */
+.projeto-secao{
+    margin-top: 55px;
+}
+
+.tittle-project{
+    margin-bottom: 20px;
+
+}
