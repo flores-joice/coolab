@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/joice.css">
+    <link rel="stylesheet" href="css/projetos.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,900" rel="stylesheet">
-    <title>Index</title>
+    <title>Inicio</title>
 </head>
 
 <body>
-    <header class="header-index flex">
-        <div class="bg-green flex">
-            <div class="nav flex  container">
-                <div class="nav-logo  flex">
-                    <a href="index.html" class="nav-logo-img"><img src="assest/logo/coolab_logo_branco.png" alt=""></a>
-                </div>
-                <nav class="nav-menu flex" id="nav-menu">
-                    <ul class="nav-menu-list flex">
-                        <li class="nav-menu-list-item"><a href="quemsomos.html">Quem Somos</a></li>
-                        <li class="nav-menu-list-item"><a href="comoparticipar.html">Como Participar</a></li>
-                        <li class="nav-menu-list-item"><a href="projetos.html">Projetos</a></li>
-                        <li class="nav-menu-list-item"><a href="blog.html">Blog</a></li>
-                        <li class="nav-menu-list-item"><a href="documentacao.html">Documentação</a></li>
-                        <li class="nav-menu-list-item"><a href="contato.html">Contato</a></li>
+    <header class="header-index">
+        <nav class="bg-green navbar navbar-expand-lg navbar-dark align-items-start flex-column">
+            <div class="container d-flex ">
+                <a class="navbar-brand col-2 " href="index.html"><img src="assest/logo/coolab_logo_branco.png" alt=""
+                        class="img-logo img-responsive"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="quemsomos.html">Quem somos <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="comoparticipar.html">Como participar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="projetos.html">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="documentacao.html">Documentação</a>
+                        </li>
                     </ul>
-                    <div class="nav-menu-icon">
-                        <img src="assest/menu.png" alt=""><a href="#nav-menu"></a>
-                    </div>
-                </nav>
-            </div>
-            <div class="header-h1 flex">
-                <div class="header-h1-content container flex">
-                    <h1>
-                        A Coolab agrega diversar pessoas e projetos de telecomunicação comunitária fomentando infraestruturas autônomas, através da capacitação técnica e ativação
-                    </h1>
-                    <button class="header-button"><a href="comoparticipar.html">Como participar</a></button>
                 </div>
             </div>
-        </div>
+            <div class="header-text d-flex flex-column align-items-start col-sm-12 col-lg-7 justify-content-end">
+                <h1 class="h3">A Coolab agrega diversas pessoas e projetos de telecomunicação comunitária fomentando
+                    infraestruturas autônomas, através da capacitação técnica e ativação</h1>
+                <button type="button" class="header-btn btn col-lg-3 col-sm-4">Como Participar</button>
+            </div>
+        </nav>
     </header>
     <main class="main">
         <section class="main">
@@ -46,8 +57,86 @@
         </section>
 
     </main>
-    <footer>
 
+    <section class="section-projetos">
+        <div class="container">
+            <h2 class="footer-noticias-title">Projetos</h2>
+
+            <section class="projetos-card">
+                <div class="row row-projetos">
+                    <div class="col-lg-4 col-projetos">
+                        <div class="card-projetos">
+                            <div class="card-body card-projetos-body">
+                                <div class="card-projetos-content">
+                                    <h5 class="card-title card-projetos-title">Redes Wifi local da casa dos meninos</h5>
+                                    <p class="card-text card-projetos-text">São Paulo, SP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-projetos">
+                        <div class="card-projetos">
+                            <div class="card-body card-projetos-body">
+                                <div class="card-projetos-content">
+                                    <h5 class="card-title card-projetos-title">Redes Wifi local da casa dos meninos</h5>
+                                    <p class="card-text card-projetos-text">São Paulo, SP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-projetos">
+                        <div class="card-projetos">
+                            <div class="card-body card-projetos-body">
+                                <div class="card-projetos-content">
+                                    <h5 class="card-title card-projetos-title">Redes Wifi local da casa dos meninos</h5>
+                                    <p class="card-text card-projetos-text">São Paulo, SP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark navbar-dark  ">
+        <div class="footer-div d-flex align-items-center justify-content-between container py-3">
+            <nav class="nav-1 navbar navbar-dark ">
+                <a class="nav-link text-secondary d-flex align-items-center" href="#">
+                    <img src="assest/icons/icon-contato.png" width="35" height="25" class="contato-img d-inline-block align-top"
+                        alt="">
+                    Contato
+                </a>
+                <a class="nav-link text-secondary nav-link-barra" href="">|</a>
+                <a class="nav-link text-secondary" href="quemsomos.html">Quem somos <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-secondary" href="comoparticipar.html">Como participar</a>
+                <a class="nav-link text-secondary" href="projetos.html">Projetos</a>
+                <a class="nav-link text-secondary" href="blog.html">Blog</a>
+                <a class="nav-link text-secondary" href="documentacao.html">Documentação</a>
+            </nav>
+            <!-- <div class="container d-flex"> -->
+            <nav class="nav-2 navbar navbar-dark justify-content-center row">
+                <a class="nav-link img-redes" href="#"><img src="assest/icons/icon-fb.png" width="35" alt=""></a>
+                <a class="nav-link img-redes" href="#"><img src="assest/icons/icon-flickr.png" width="35" alt=""></a>
+                <a class="nav-link img-redes" href="#"><img src="assest/icons/icon-twitter.png" width="35" alt=""></a>
+            </nav>
+        </div>
+        <div class="footer-div d-flex align-items-end justify-content-between container py-3 ">
+            <nav class="nav-3 navbar navbar-dark d-flex flex-column align-items-start">
+                <label class="text-secondary" for="email">Assinar a newsletter</label>
+                <div class="d-flex bg-transprent">
+                    <input type="email" name="email" id="">
+                    <button> <img src="assest/icons/seta.png" alt=""></button>
+                </div>
+            </nav>
+            <nav class="nav-4 navbar navbar-dark d-flex flex-column">
+                <p class="text-secondary">₢2018 Coolab. Todos os direitos reservados.</p>
+            </nav>
+        </div>
+        <!-- </div> -->
     </footer>
     <script src="js/script.js"></script>
 </body>

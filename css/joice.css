@@ -1,0 +1,62 @@
+.header-index {
+  background-image: url("../assest/banner.jpg");
+  background-size: cover;
+  height: 30rem;
+  background-color: aqua;
+}
+
+.header-btn {
+  background-color:  #EA3963;
+  
+}
+
+.header-text {
+  padding: 3%;
+}
+
+.bg-green {
+  background-color: rgba(33, 166, 144, 0.534);
+  height: 30rem;
+}
+
+.img-logo {
+    width: 120px;
+  }
+  
+  .contato-img {
+    margin-right: 10px;
+  }
+  
+  .img-redes {
+    padding: 5px;
+  }
+  
+  @media screen and (max-width: 768px){
+    .footer {
+      align-content: center;
+    }
+    .footer-div {
+      display: block;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-1 {
+      display: table;
+      justify-content: center;
+    }
+  
+    .nav-2 {
+      display: flex;
+    }
+  
+    .nav-3 .nav-4 {
+      display: block;
+       justify-content: center;
+    }
+
+    .nav-link-barra {
+      display: none;
+    }
+  
+  }
