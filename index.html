@@ -6,18 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,900" rel="stylesheet">
+    <title>Home</title>
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/joice.css">
     <link rel="stylesheet" href="css/projetos.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,900" rel="stylesheet">
     <title>Inicio</title>
+
 </head>
 
 <body>
     <header class="header-index">
-        <nav class="bg-green navbar navbar-expand-lg navbar-dark align-items-start flex-column">
-            <div class="container d-flex ">
-                <a class="navbar-brand col-2 " href="index.html"><img src="assest/logo/coolab_logo_branco.png" alt=""
+
+        <nav class="primary-home navbar navbar-expand-lg navbar-transparent bg-transparent">
+            <div class="container d-flex">
+                <a class="navbar-brand col-2" href="index.html"><img src="assest/logo/coolab_logo_branco.png" alt=""
+
                         class="img-logo img-responsive"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,12 +59,56 @@
             </div>
         </nav>
     </header>
-    <main class="main">
-        <section class="main">
+    <!-- seção da imagem e texto principal -->
+    <section id="home" class="header d-flex  align-items-end align-content-lg-end">
+        <div class="header-primary container">
+            <div class="d-flex flex-column">
+                <p class="header-text">A Coolab agrega diversas pessoas e projetos de <br /> telecomunicação
+                    comunitária fomentando infraestrutura <br /> autônomas, através da capacitação técnica e
+                    ativação.</p>
+                <button type="button" class="header-button btn btn-danger">Como Participar</button>
+            </div>
+        </div>
+    </section>
 
+    <!-- seção de imagens/descrição dos projetos -->
+    <section class="secao-projetos">
+        <div class="projeto-secao container">
+            <h2 class="tittle-project">Projetos</h2>
+            <div class="row">
+                <div class="col-sm card" style="width: 18rem;">
+                    <img class="card-img-top" src="assest/noticias/foto2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-titte">Rede WIFI Local da Casa dos Meninos</p>
+                        <p class="text-center">
+                            São Paulo, SP
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm card" style="width: 18rem;">
+                    <img class="card-img-top" src="assest/noticias/foto2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Rede WIFI Local da Casa dos Meninos</p>
+                        <p class="text-center">
+                            São Paulo, SP
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm card" style="width: 18rem;">
+                    <img class="card-img-top" src="assest/noticias/foto2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Rede WIFI Local da Casa dos Meninos</p>
+                        <p class="text-center">
+                            São Paulo, SP
+                        </p>
+                    </div>
+                </div>
         </section>
+    </section>
 
-    </main>
+
 
     <section class="section-projetos">
         <div class="container">
@@ -138,6 +190,16 @@
         </div>
         <!-- </div> -->
     </footer>
+
+
+
+    <!-- script do jquery primeiro -->
+    <script src="js/jquery.slim.min.js"></script>
+    <!-- para validação do forms -->
+    <script src="js/jquery.validate.min.js"></script>
+    <!-- script do bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- meu script para validação de forms -->
     <script src="js/script.js"></script>
 </body>
 
