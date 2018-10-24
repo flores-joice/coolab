@@ -10,6 +10,10 @@
   
 }
 
+.header-text {
+  padding: 3%;
+}
+
 .bg-green {
   background-color: rgba(33, 166, 144, 0.534);
   height: 30rem;
