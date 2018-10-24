@@ -10,6 +10,10 @@
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+body {
+    width: 100%;
+}
+
 .flex{
     display: flex;
 }
@@ -27,6 +31,7 @@
 
 .header-index {
     height: 30rem;
+    width: 100%;
     background-image: url("../assest/banner.jpg");
     background-size: cover; 
     flex-direction: column;
@@ -41,8 +46,6 @@
     &-content {
         justify-content: flex-end;
         flex-direction: column;
-        
-
      }
 
     & h1{
@@ -101,6 +104,42 @@
                     color: white;
                     padding-right: 5px;
                     
+                }
+            }
+            
+        }
+        &-icon img {
+            width: 3rem;
+        }
+    }
+    @media screen and (max-width: 750px) {        
+        .nav {
+            width: 100%;
+            height: 6rem;
+            align-items: center;
+                
+            &-menu {
+                width: 20%;
+            
+                 &-list {
+                    display: none;
+                
+                    &-item {
+                        text-decoration: none;
+                        padding-right: 15px;
+                        
+                    
+                        & a {
+                            text-decoration: none;
+                            color: white;
+                            padding-right: 5px;
+                            
+                        }
+                    }
+                }
+                
+                &-icon img {
+                    width: 3rem;
                 }
             }
             
