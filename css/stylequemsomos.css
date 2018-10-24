@@ -6,12 +6,13 @@
 .container-quemsomos{
 width: 70%;
 margin: 0 auto;
+padding-bottom: 65px;
 
 margin-top: 50px;
 }
 
 .titulo-quemsomos{
-    color: rgb(28, 40, 56) ;
+    color:  #58b59f;
 		font-size: 26px;
 		margin-bottom: 35px;
 		margin-top: 10px;
@@ -31,8 +32,8 @@ ul .sobre-list:before{
 }
 
 .hr{
-    border-bottom: 2px solid #a5a5a5;
-    padding: 40px;
+    border-bottom: 1px solid #a5a5a5;
+    
    }
 
    
@@ -70,3 +71,22 @@ ul .sobre-list:before{
       max-width: 90px;
       max-height: 88px;
  }
+
+ .sobre-button{
+		    
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.sobre-button a{
+margin-top: 20px;
+border-radius: 25px;
+margin-bottom: 40px;
+background-color: #f9005b;
+padding: 8px 20px;
+font-family: "Montserrat Alternates";
+font-weight: 500;
+font-size: 0.8rem;
+color: white;
+}
