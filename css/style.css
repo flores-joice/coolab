@@ -5,7 +5,6 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  text-align: center;
   font-family: 'Montserrat Alternates', sans-serif; }
 
 .flex {
@@ -18,12 +17,39 @@
 .header {
   width: 100%; }
 
+.header-index {
+  height: 30rem;
+  background-image: url("../assest/banner.jpg");
+  background-size: cover;
+  flex-direction: column; }
+
+.header-h1 {
+  width: 50rem;
+  height: 22rem;
+  align-content: flex-end;
+  padding-left: 1rem; }
+  .header-h1-content {
+    justify-content: flex-end;
+    flex-direction: column; }
+  .header-h1 h1 {
+    font-size: 1.5rem; }
+
+.header-button {
+  width: 13rem;
+  height: 2.5rem;
+  padding: 10px 10px;
+  background-color: crimson;
+  border: none;
+  border-radius: 20px;
+  margin-top: 1rem; }
+  .header-button a {
+    text-decoration: none;
+    color: white; }
+
 .nav {
   width: 100%;
   height: 6rem;
-  background-color: #021414;
-  align-items: center;
-  }
+  align-items: center; }
   .nav-logo {
     width: 15%;
     justify-content: flex-end;
@@ -36,7 +62,7 @@
     width: 80%; }
     .nav-menu-list {
       list-style: none;
-      padding: 0 5%; }
+      padding: 0 3%; }
       .nav-menu-list-item {
         text-decoration: none;
         padding-right: 15px; }
@@ -44,5 +70,17 @@
           text-decoration: none;
           color: white;
           padding-right: 5px; }
+
+.bg-dark {
+  background-color: #292929; }
+
+.bg-green {
+  background-color: rgba(22, 134, 97, 0.685);
+  height: 30rem;
+  flex-direction: column;
+  align-content: space-between; }
+
+.main {
+  width: 200px; }
 
 /*# sourceMappingURL=style.css.map */
