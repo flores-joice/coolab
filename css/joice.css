@@ -40,9 +40,9 @@ p {
   
 }
 
-.header-text {
+/* .header-text {
   padding: 3%;
-}
+} */
 
 .bg-green {
   background-color: rgba(33, 166, 144, 0.534);
@@ -121,6 +121,7 @@ p {
     display: flex;
     justify-content: flex-end;
     margin-top: 24px; 
+    margin-bottom: 50px;
 }
 
 .contato .btn {
@@ -463,6 +464,7 @@ body{
       margin: 0 auto;
   }
 
+
   /* mobile página quem somos */
 
   @media (max-width: 768px){
@@ -491,4 +493,14 @@ body{
   .sobre-button{
     justify-content: center;
   }
+}
+
+  /* SEÇÃO PROJETO DA PAG HOME */
+.projeto-secao{
+  margin-top: 55px;
+}
+
+.tittle-project{
+  margin-bottom: 20px;
+
 }
