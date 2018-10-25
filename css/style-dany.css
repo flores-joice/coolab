@@ -1,12 +1,12 @@
 body{
     background: #E7EBF4;
 }
-.test {
+.galeria-post {
     column-count: 3;
     column-gap: 5px;
     margin-bottom: 50px;
 }
-.test img {
+.galeria-post img {
     width: 100% !important;
     height: auto !important;
     object-fit: cover;
@@ -30,10 +30,7 @@ body{
 .titulo-localizacao-container{
     margin-bottom: 25px;
 }
-.container-menor{
-    width: 70%;
-    margin: 0 auto;
-}
+
 .projeto-titulo{
     margin-top: 51px;   
 }
@@ -53,7 +50,7 @@ body{
 }
 
 @media (max-width: 800px) {
-    .test {
+    .galeria-post {
         column-count: 2;
         column-gap: 5px;
     }
@@ -87,7 +84,7 @@ body{
     max-width: 350px;
     max-height: 350px;
 }
-.container.test img {
+.container.galeria-post img {
     height: 100%;
     width: 100%;
     object-position: center;

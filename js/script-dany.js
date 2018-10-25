@@ -1,3 +1,3 @@
-$('.container.test img').on('click', function (event) {
+$('.container.galeria-post img').on('click', function (event) {
     $('#carouselGaleria').carousel(parseInt($(this).attr('data-carousel-index')))
 })
