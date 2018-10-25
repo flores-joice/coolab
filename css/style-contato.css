@@ -15,13 +15,13 @@
     padding: 30px;
 }
 
-.button {
+.contato .button {
     display: flex;
     justify-content: flex-end;
     margin-top: 24px; 
 }
 
-.btn {
+.contato .btn {
     border-radius: 20px;
     padding: 7px 40px;
     font-weight: bold;
