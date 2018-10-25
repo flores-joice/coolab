@@ -192,6 +192,7 @@ a.nav-item-link:hover {
   padding: 0 5px;
 }
 
+/* footer-projetos */
  .card-projetos {
   width: 100%;
   height: 350px;
@@ -202,6 +203,16 @@ a.nav-item-link:hover {
   align-items: flex-end;
 }
 
+
+.card-dois-projetos{
+ 
+  background-image: url(../assest/projetos/amazonas.jpg);
+ 
+}
+
+.card-tres-projetos{
+  background-image: url(../assest/projetos/maxresdefault.jpg);
+}
 .btn-footerprojetos{
   width: 100%;
   padding-bottom: 35px;
@@ -222,6 +233,9 @@ a.nav-item-link:hover {
   font-size: 1.25rem;
 }
 
+.footer-projetos-title{
+ font-weight: 100;
+}
 .card-projetos-text {
   font-weight: 700;
   font-size: 0.8125rem;
@@ -243,6 +257,8 @@ a.nav-item-link:hover {
   transition: all 0.5s;
 }
 
+
+/* footer-noticias */
 .footer-noticias {
   background-color: #C7CEDD;
   padding: 25px 0;
@@ -306,6 +322,8 @@ a.nav-item-link:hover {
 body{
   background: #E7EBF4;
 }
+
+
 .galeria-post {
   column-count: 3;
   column-gap: 5px;
@@ -337,6 +355,8 @@ body{
 .projeto-box{
   margin-top: 20px;
 }
+
+/* mapa-pagina projetos post */
 .localizacao-container{
   margin-top: 25px;
   margin-bottom: 51px;
