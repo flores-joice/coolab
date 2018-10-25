@@ -147,15 +147,15 @@ p {
   padding-bottom: 45px;
 }
 
-.main-projetos .row-projetos {
+ .row-projetos {
   margin: 10px 0;
 }
 
-.main-projetos .col-projetos {
+ .col-projetos {
   padding: 0 5px;
 }
 
-.main-projetos .card-projetos {
+ .card-projetos {
   width: 100%;
   height: 350px;
   background-image: url(../assest/noticias/foto1.png);
@@ -165,7 +165,7 @@ p {
   align-items: flex-end;
 }
 
-.main-projetos .card-projetos-content {
+ .card-projetos-content {
   margin: 20px auto;
 }
 
@@ -175,12 +175,12 @@ p {
   text-align: center;
 }
 
-.main-projetos .card-projetos-title {
+.card-projetos-title {
   font-weight: 600;
   font-size: 1.25rem;
 }
 
-.main-projetos .card-projetos-text {
+.card-projetos-text {
   font-weight: 700;
   font-size: 0.8125rem;
   color: #ffffff;
