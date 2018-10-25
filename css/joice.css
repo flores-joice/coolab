@@ -5,6 +5,7 @@
   color: #1E2738;
 }
 
+
 a:hover {
   text-decoration: none;
 }
@@ -19,11 +20,19 @@ h1 {
 
 h2, h3, h4, h5, h6 {
   font-family: "Montserrat Alternates";
+
+  
 }
 
-p {
-  font-family: "Montserrat";
+h5{
+  font-weight: bold;
 }
+p {
+ 
+  font-weight: 600;
+color: #1E2738;
+}
+
 
 .header-index {
   background-image: url("../assest/banner.jpg");
@@ -477,7 +486,6 @@ body{
   font-size: 0.8rem;
   color: white;
   }
-  
   .quemsomos-inicio {
       width: 80%;
       display: flex;
