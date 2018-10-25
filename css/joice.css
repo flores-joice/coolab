@@ -303,6 +303,15 @@ body{
   object-fit: cover;
 }
 
+.galeria-container{
+  margin-top: 25px;
+  margin-bottom: 51px;
+}
+.titulo-galeria-post{
+  margin-bottom: 25px;
+  margin-left: 14px;
+}
+
 .botao-voltar-projeto-post {    
   text-align: right;
   margin-left: -30px;    
