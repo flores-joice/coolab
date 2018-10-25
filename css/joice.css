@@ -480,7 +480,11 @@ body{
       margin: 0 auto;
   }
 
+/* pagina participar */
 
+.btn-participar-center{
+  justify-content: end;
+}
   /* mobile página quem somos */
 
   @media (max-width: 768px){
@@ -518,5 +522,8 @@ body{
 
 .tittle-project{
   margin-bottom: 20px;
-
 }
+
+
+
+
