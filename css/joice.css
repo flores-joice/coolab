@@ -439,10 +439,13 @@ body{
       list-style: none;
       padding: 0;
   }
+  ul{
+    font-weight: 600;
+  }
   
   ul .sobre-list:before{
       content: '•';
-      
+      font-weight: 600;
       color: #44B8A5;
   
   }
