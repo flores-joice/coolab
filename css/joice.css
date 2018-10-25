@@ -137,6 +137,7 @@ p {
     display: flex;
     justify-content: flex-end;
     margin-top: 24px; 
+    margin-bottom: 50px;
 }
 
 .contato .btn {
@@ -478,3 +479,13 @@ body{
       flex-direction: column;    
       margin: 0 auto;
   }
+
+  /* SEÇÃO PROJETO DA PAG HOME */
+.projeto-secao{
+  margin-top: 55px;
+}
+
+.tittle-project{
+  margin-bottom: 20px;
+
+}
