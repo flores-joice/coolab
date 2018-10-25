@@ -68,7 +68,7 @@ p {
     .footer-div {
       display: block;
       flex-direction: column;
-      align-items: center;
+      align-items: center!important;
     }
   
     .nav-1 {
@@ -82,7 +82,7 @@ p {
   
     .nav-3 .nav-4 {
       display: block;
-       justify-content: center;
+      align-items: center!important;
     }
 
     .nav-link-barra {
