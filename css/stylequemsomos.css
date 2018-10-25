@@ -19,7 +19,7 @@ margin-top: 50px;
 		font-weight: 900;
 }
 
-ul{
+.container-quemsomos ul{
     list-style: none;
     padding: 0;
 }
@@ -31,7 +31,7 @@ ul .sobre-list:before{
 
 }
 
-.hr{
+.container .hr{
     border-bottom: 1px solid #a5a5a5;
     
    }
@@ -91,3 +91,9 @@ font-size: 0.8rem;
 color: white;
 }
 
+.quemsomos-inicio {
+    width: 80%;
+    display: flex;
+    flex-direction: column;    
+    margin: 0 auto;
+}
