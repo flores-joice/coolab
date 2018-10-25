@@ -121,6 +121,7 @@ p {
     display: flex;
     justify-content: flex-end;
     margin-top: 24px; 
+    margin-bottom: 50px;
 }
 
 .contato .btn {
