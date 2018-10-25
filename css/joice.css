@@ -35,6 +35,10 @@ p {
   height: 4rem;
   z-index: 999;
 }
+ 
+button.header-nav-img {
+  color: white;
+}
 
 .header-btn {
   background-color:  #EA3963;
@@ -51,6 +55,13 @@ p {
   font-size: 1.3rem;
 
 }
+
+a.nav-item-link:hover {
+  color: #EA3963!important;
+  
+}
+
+
 
 .bg-green {
   background-color: rgba(33, 166, 144, 0.534);
