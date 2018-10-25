@@ -14,7 +14,7 @@ h1 {
   font-weight: 800;
   font-size: 1.563rem;
   padding: 30px 0;
-  padding-top: 90px;
+  padding-top: 35px;
 }
 
 h2, h3, h4, h5, h6 {
@@ -462,3 +462,33 @@ body{
       flex-direction: column;    
       margin: 0 auto;
   }
+
+  /* mobile página quem somos */
+
+  @media (max-width: 768px){
+
+   
+  .mobile-quemsomos{
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    align-items: center;
+  }
+  .coolab-trabalhos-imagesicon{
+    display: block;
+  }
+
+  .titulo-quemsomos{
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  h1{
+    text-align: center;
+    padding-top: 26px;
+  }
+
+  .sobre-button{
+    justify-content: center;
+  }
+}
