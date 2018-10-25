@@ -351,3 +351,105 @@ body{
   max-height: 80vh;
   margin: auto;
 }
+
+/* CSS DA PÁGINA QUEM SOMOS */
+
+/* *{
+    background-color: #E7EBF4;
+} */
+
+/* footer */
+.container-quemsomos{
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 65px;
+  
+  margin-top: 50px;
+  }
+  
+  .titulo-quemsomos{
+      color:  #58b59f;
+      font-size: 26px;
+      margin-bottom: 35px;
+      margin-top: 10px;
+      font-weight: 900;
+  }
+  
+  .container-quemsomos ul{
+      list-style: none;
+      padding: 0;
+  }
+  
+  ul .sobre-list:before{
+      content: '•';
+      
+      color: #44B8A5;
+  
+  }
+  
+  .container .hr{
+      border-bottom: 1px solid #a5a5a5;
+      
+     }
+  
+     
+     /* .coolab-trabalhos-imagesicon{
+      height: 70px;
+      display: flex;
+      align-items: flex-end;
+    
+   }
+   .coolab-trabalhos-imagesicon  img{
+        /* width: 55%; */
+        /* max-width: 20vh;
+      
+   } */ 
+  
+   .card-quemsomos{
+      background-color: #e7ebf4;
+      position: relative;
+     border: none;
+   }
+  
+   .card-quemsomos img{
+       width: 20vh;
+   }
+  
+  
+   .coolab-trabalhos-imagesicon{
+      height: 70px;
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 30px;
+   }
+   .coolab-trabalhos-imagesicon  img{
+        /* width: 55%; */
+        max-width: 90px;
+        max-height: 88px;
+   }
+  
+   .sobre-button{
+          
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+  
+  }
+  .sobre-button a{
+  margin-top: 20px;
+  border-radius: 25px;
+  margin-bottom: 40px;
+  background-color: #f9005b;
+  padding: 8px 20px;
+  font-family: "Montserrat Alternates";
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: white;
+  }
+  
+  .quemsomos-inicio {
+      width: 80%;
+      display: flex;
+      flex-direction: column;    
+      margin: 0 auto;
+  }
