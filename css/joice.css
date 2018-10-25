@@ -182,6 +182,11 @@ p {
   align-items: flex-end;
 }
 
+.btn-footerprojetos{
+  width: 100%;
+  padding-bottom: 35px;
+}
+
  .card-projetos-content {
   margin: 20px auto;
 }
