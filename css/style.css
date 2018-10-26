@@ -27,14 +27,26 @@ h2, h3, h4, h5, h6 {
 h5{
   font-weight: bold;
 }
+
 p {
- 
   font-weight: 600;
-color: #1E2738;
+  color: #1E2738;
 }
 
 .header {
   background-color: #1E2738;
+}
+
+.btn-rosa {
+  background-color:  #EA3963;
+  padding: 7px 35px;
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 20px 0;
 }
 
 .header-index {
@@ -52,28 +64,14 @@ button.header-nav-img {
   color: white;
 }
 
-.header-btn {
-  background-color:  #EA3963;
-  
-}
-
-.header-text {
-  padding: 0 0 2% 6%;
-  
-}
-
 .header-title {
-  font-weight: 100;
-  font-size: 1.3rem;
-
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 a.nav-item-link:hover {
   color: #EA3963!important;
-  
 }
-
-
 
 .bg-green {
   background-color: rgba(33, 166, 144, 0.534);
@@ -209,6 +207,7 @@ a.nav-item-link:hover {
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
+  margin-bottom: 10px;
 }
 
 .btn-footerprojetos{
@@ -419,6 +418,7 @@ body{
 #modalGaleria  img {
   max-height: 80vh;
   margin: auto;
+  width: 100%;
 }
 
 /* CSS DA PÁGINA QUEM SOMOS */
@@ -572,3 +572,43 @@ body{
 
 
 
+/* footer-contador */
+
+.section-contador{
+  background-color: #C7CEDD;
+  background: url("../assest/textura.png");
+  height: 15rem;
+
+}
+.contador{
+  background: url("../assest/textura.png");
+  background-size: cover;
+  height: 15rem;
+  
+
+}
+
+.contador-grande{
+  display: flex;
+ 
+    flex-direction: column;
+    align-items: center;
+
+}
+.contador-grande span,{
+  color: white;
+} 
+
+
+
+.contador-grande > span {
+  font-size: 5rem;
+  color: white;
+}
+
+.contador-grande > p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+
+}
