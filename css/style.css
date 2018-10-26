@@ -63,6 +63,10 @@ p {
   z-index: 999;
 }
 
+.nav-padding {
+  padding: 10px 0;
+}
+
 button.header-nav-img {
   color: white;
 }
