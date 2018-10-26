@@ -68,9 +68,8 @@ button.header-nav-img {
 }
 
 .header-title {
-  font-weight: 300;
-  font-size: 1.3rem;
-  text-align: left;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 a.nav-item-link:hover {
@@ -116,6 +115,14 @@ a.nav-item-link:hover {
   
   .header-text {
     padding: 0;
+    padding-left: 10px;
+  }
+
+  .header-title {
+    font-weight: 300;
+    font-size: 1.3rem;
+    text-align: left;
+    
   }
   
   .footer {
