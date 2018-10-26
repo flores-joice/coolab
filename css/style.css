@@ -606,7 +606,7 @@ ul .sobre-list:before{
 
 .contador-grande{
   display: flex;
-  
+
   flex-direction: column;
   align-items: center;
   
