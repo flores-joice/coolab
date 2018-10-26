@@ -419,6 +419,7 @@ body{
 #modalGaleria  img {
   max-height: 80vh;
   margin: auto;
+  width: 100%;
 }
 
 /* CSS DA PÁGINA QUEM SOMOS */
