@@ -68,8 +68,9 @@ button.header-nav-img {
 }
 
 .header-title {
-  font-weight: 600;
-  font-size: 1.5rem;
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-align: left;
 }
 
 a.nav-item-link:hover {
