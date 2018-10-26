@@ -82,6 +82,12 @@ a.nav-item-link:hover {
     margin-right: 30rem;
   }
   
+@media (max-width: 420px) {
+  .img-logo {
+    margin-right: 0px;
+  }
+}
+
 .contato-img {
   margin-right: 10px;
 }
