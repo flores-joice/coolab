@@ -277,7 +277,7 @@ a.nav-item-link:hover {
 .footer-noticias {
   background-color: #C7CEDD;
   padding: 25px 0;
-  border-top: 1px solid #a5a5a5
+  border-top: 1px solid #a5a5a5;
 }
 
 .footer-noticias-title {
@@ -337,6 +337,7 @@ a.nav-item-link:hover {
 .card-footer-noticias-text {
   overflow: hidden;
   font-size: 0.860rem;
+  font-family: "Montserrat";
 }
 
 body{

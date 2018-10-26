@@ -327,7 +327,8 @@ a.nav-item-link:hover {
 
 .card-footer-noticias-text {
   overflow: hidden;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
+  font-family: "Montserrat";
 }
 
 .galeria-post {
