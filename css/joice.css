@@ -20,7 +20,7 @@ h1 {
 
 h2, h3, h4, h5, h6 {
   font-family: "Montserrat Alternates";
-
+  
   
 }
 
@@ -28,9 +28,9 @@ h5{
   font-weight: bold;
 }
 p {
- 
+  
   font-weight: 600;
-color: #1E2738;
+  color: #1E2738;
 }
 
 .header {
@@ -47,7 +47,7 @@ color: #1E2738;
   height: 4rem;
   z-index: 999;
 }
- 
+
 button.header-nav-img {
   color: white;
 }
@@ -66,7 +66,6 @@ button.header-nav-img {
 .header-title {
   font-weight: 100;
   font-size: 1.3rem;
-  text-align: left;
 }
 
 a.nav-item-link:hover {
@@ -85,10 +84,10 @@ a.nav-item-link:hover {
 }
 
 .img-logo {
-    width: 120px;
-    margin-right: 30rem;
-  }
-  
+  width: 120px;
+  margin-right: 30rem;
+}
+
 @media (max-width: 420px) {
   .img-logo {
     margin-right: 0px;
@@ -110,80 +109,81 @@ a.nav-item-link:hover {
 .footer-div-2{
   padding-bottom: 10px;
 }
-  
-  @media screen and (max-width: 768px){
-    .header-index {
-      height: 30rem;
-    }
 
-    .header-text {
-      padding: 0;
-      
-    }
-
-    .footer {
-      align-content: center;
-    }
-    .footer-div-1 {
-      flex-direction: column;
-      align-items: center!important;
-      padding-bottom: 0;
-    }
-
-    .footer-div-2 {
-      flex-direction: column;
-      align-items: center!important;
-    }
-
-    .nav-3 {
-      padding-top: -3px;
-    }
-  
-    .nav-3, .nav-4 {
-      align-items: center!important;
-    }
-
-    .nav-link-barra {
-      display: none;
-    }
-  
+@media screen and (max-width: 768px){
+  .header-index {
+    height: 30rem;
   }
+  
+  .header-text {
+    padding: 0;
+    
+  }
+  
+  .footer {
+    align-content: center;
+  }
+  .footer-div-1 {
+    flex-direction: column;
+    align-items: center!important;
+    padding-bottom: 0;
+  }
+  
+  .footer-div-2 {
+    flex-direction: column;
+    align-items: center!important;
+  }
+  
+  .nav-3 {
+    padding-top: -3px;
+  }
+  
+  .nav-3, .nav-4 {
+    align-items: center!important;
+  }
+  
+  .nav-link-barra {
+    display: none;
+  }
+  
+  
+}
 
 .container-menor {
-    width: 70%;
-    margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .contato {
-    background-color: #E7EBF4;
+  background-color: #E7EBF4;
 }
 
 .contato .form-group {
-    margin: 0;
+  margin: 0;
 }
 
 .contato .form-control {
-    padding: 30px;
+  padding: 30px;
 }
 
 .contato .button {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 24px; 
-    margin-bottom: 50px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px; 
+  margin-bottom: 50px;
 }
 
 .contato .btn {
-    border-radius: 20px;
-    padding: 7px 40px;
-    font-weight: bold;
-    border-style: none;
-    background-color: #EA3963;
+  border-radius: 20px;
+  padding: 7px 40px;
+  font-weight: bold;
+  border-style: none;
+  background-color: #EA3963;
 }
 
 .error {
-    color: red;
-    padding-left: 30px;
+  color: red;
+  padding-left: 30px;
 }
 
 .section-projetos {
@@ -197,16 +197,16 @@ a.nav-item-link:hover {
   padding-bottom: 45px;
 }
 
- .row-projetos {
+.row-projetos {
   margin: 10px 0;
 }
 
- .col-projetos {
+.col-projetos {
   padding: 0 5px;
 }
 
 /* footer-projetos */
- .card-projetos {
+.card-projetos {
   width: 100%;
   height: 350px;
   background-image: url(../assest/noticias/foto1.png);
@@ -215,14 +215,14 @@ a.nav-item-link:hover {
   display: flex;
   align-items: flex-end;
   margin-bottom: 10px;
-
+  
 }
 
 
 .card-dois-projetos{
- 
+  
   background-image: url(../assest/projetos/amazonas.jpg);
- 
+  
 }
 
 .card-tres-projetos{
@@ -233,7 +233,7 @@ a.nav-item-link:hover {
   padding-bottom: 35px;
 }
 
- .card-projetos-content {
+.card-projetos-content {
   margin: 20px auto;
 }
 
@@ -249,7 +249,7 @@ a.nav-item-link:hover {
 }
 
 .footer-projetos-title{
- font-weight: 100;
+  font-weight: 100;
 }
 .card-projetos-text {
   font-weight: 700;
@@ -405,8 +405,8 @@ body{
 
 @media (max-width: 800px) {
   .galeria-post {
-      column-count: 2;
-      column-gap: 5px;
+    column-count: 2;
+    column-gap: 5px;
   }
 }
 .gallery-lightbox {
@@ -455,7 +455,7 @@ body{
 /* CSS DA PÁGINA QUEM SOMOS */
 
 /* *{
-    background-color: #E7EBF4;
+  background-color: #E7EBF4;
 } */
 
 /* footer */
@@ -465,80 +465,80 @@ body{
   padding-bottom: 65px;
   
   margin-top: 50px;
-  }
+}
+
+.titulo-quemsomos{
+  color:  #58b59f;
+  font-size: 26px;
+  margin-bottom: 35px;
+  margin-top: 10px;
+  font-weight: 900;
+}
+
+.container-quemsomos ul{
+  list-style: none;
+  padding: 0;
+}
+ul{
+  font-weight: 600;
+}
+
+ul .sobre-list:before{
+  content: '•';
+  font-weight: 600;
+  color: #44B8A5;
   
-  .titulo-quemsomos{
-      color:  #58b59f;
-      font-size: 26px;
-      margin-bottom: 35px;
-      margin-top: 10px;
-      font-weight: 900;
-  }
+}
+
+.container .hr{
+  border-bottom: 1px solid #a5a5a5;
   
-  .container-quemsomos ul{
-      list-style: none;
-      padding: 0;
-  }
-  ul{
-    font-weight: 600;
-  }
+}
+
+
+/* .coolab-trabalhos-imagesicon{
+  height: 70px;
+  display: flex;
+  align-items: flex-end;
   
-  ul .sobre-list:before{
-      content: '•';
-      font-weight: 600;
-      color: #44B8A5;
+}
+.coolab-trabalhos-imagesicon  img{
+  /* width: 55%; */
+  /* max-width: 20vh;
   
-  }
+} */ 
+
+.card-quemsomos{
+  background-color: #e7ebf4;
+  position: relative;
+  border: none;
+}
+
+.card-quemsomos img{
+  width: 20vh;
+}
+
+
+.coolab-trabalhos-imagesicon{
+  height: 70px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+.coolab-trabalhos-imagesicon  img{
+  /* width: 55%; */
+  max-width: 90px;
+  max-height: 88px;
+}
+
+.sobre-button{
   
-  .container .hr{
-      border-bottom: 1px solid #a5a5a5;
-      
-     }
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
   
-     
-     /* .coolab-trabalhos-imagesicon{
-      height: 70px;
-      display: flex;
-      align-items: flex-end;
-    
-   }
-   .coolab-trabalhos-imagesicon  img{
-        /* width: 55%; */
-        /* max-width: 20vh;
-      
-   } */ 
-  
-   .card-quemsomos{
-      background-color: #e7ebf4;
-      position: relative;
-     border: none;
-   }
-  
-   .card-quemsomos img{
-       width: 20vh;
-   }
-  
-  
-   .coolab-trabalhos-imagesicon{
-      height: 70px;
-      display: flex;
-      align-items: flex-end;
-      margin-bottom: 30px;
-   }
-   .coolab-trabalhos-imagesicon  img{
-        /* width: 55%; */
-        max-width: 90px;
-        max-height: 88px;
-   }
-  
-   .sobre-button{
-          
-      width: 100%;
-      display: flex;
-      justify-content: flex-end;
-  
-  }
-  .sobre-button a{
+}
+.sobre-button a{
   margin-top: 20px;
   border-radius: 25px;
   margin-bottom: 40px;
@@ -548,24 +548,25 @@ body{
   font-weight: 500;
   font-size: 0.8rem;
   color: white;
-  }
-  .quemsomos-inicio {
-      width: 80%;
-      display: flex;
-      flex-direction: column;    
-      margin: 0 auto;
-  }
+}
+.quemsomos-inicio {
+  width: 80%;
+  display: flex;
+  flex-direction: column;    
+  margin: 0 auto;
+}
 
 /* pagina participar */
 
 .btn-participar-center{
   justify-content: end;
 }
-  /* mobile página quem somos */
 
-  @media (max-width: 768px){
 
-   
+/* mobile página quem somos */
+@media (max-width: 768px){
+  
+  
   .mobile-quemsomos{
     text-align: center;
     /* display: flex; */
@@ -575,23 +576,33 @@ body{
   .coolab-trabalhos-imagesicon{
     display: block;
   }
-
+  
   .titulo-quemsomos{
     text-align: center;
     padding-top: 25px;
   }
-
+  
   h1{
     text-align: center;
     padding-top: 26px;
   }
-
+  
   .sobre-button{
     justify-content: center;
   }
+
+  .contador-grande >p {
+    font-size: 1.2rem !important;
+  }
+  
+  .contador-grande > span {
+    font-size: 3rem !important ;
+    color: yellow ;
+    
+  }
 }
 
-  /* SEÇÃO PROJETO DA PAG HOME */
+/* SEÇÃO PROJETO DA PAG HOME */
 .projeto-secao{
   margin-top: 55px;
 }
@@ -607,43 +618,36 @@ body{
 
 .section-contador{
   background-color: #C7CEDD;
-
 }
 .contador{
   background: url("../assest/textura.png");
   background-size: cover;
   height: 15rem;
   
-
-}
-
-.contador-conteudo{
-  display: flex;
-  justify-content: space-evenly;
   
-  align-items: center;
-  color: white;
 }
 
-.contador-numero{
-  font-size: 65px;
-  margin-top: 30px;
-}
-
-.contador-conteudo1{
+.contador-grande{
   display: flex;
-  justify-content: space-evenly;
   
+  flex-direction: column;
   align-items: center;
+  
+}
+.contador-grande span,{
+  color: white;
+} 
+
+
+
+.contador-grande > span {
+  font-size: 5rem;
   color: white;
 }
 
-.contador-text{
-  color: white;
+.contador-grande > p {
+  font-size: 1.5rem;
   text-align: center;
+  color: white;
+  
 }
-/* 
-align-items: center;
-display: flex;
-justify-content: space-around;
-} */
