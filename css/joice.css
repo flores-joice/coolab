@@ -262,7 +262,7 @@ a.nav-item-link:hover {
 .footer-noticias {
   background-color: #C7CEDD;
   padding: 25px 0;
-  border-top: 1px solid #1E2738;
+  border-top: 1px solid #a5a5a5
 }
 
 .footer-noticias-title {
@@ -272,7 +272,12 @@ a.nav-item-link:hover {
 
 .row-footer-noticias {
   margin: 10px 0;
-  padding: 30px 0;
+  
+}
+
+.btn-footer-projetos-noticias{
+  padding: 0px;
+  width: 100%;
 }
 
 .col-footer-noticias {
@@ -316,7 +321,7 @@ a.nav-item-link:hover {
 
 .card-footer-noticias-text {
   overflow: hidden;
-  font-size: 0.875rem;
+  font-size: 0.860rem;
 }
 
 body{
