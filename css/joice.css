@@ -588,3 +588,47 @@ body{
 
 
 
+/* footer-contador */
+
+.section-contador{
+  background-color: #C7CEDD;
+
+}
+.contador{
+  background: url("../assest/textura.png");
+  background-size: cover;
+  height: 15rem;
+  
+
+}
+
+.contador-conteudo{
+  display: flex;
+  justify-content: space-evenly;
+  
+  align-items: center;
+  color: white;
+}
+
+.contador-numero{
+  font-size: 65px;
+  margin-top: 30px;
+}
+
+.contador-conteudo1{
+  display: flex;
+  justify-content: space-evenly;
+  
+  align-items: center;
+  color: white;
+}
+
+.contador-text{
+  color: white;
+  text-align: center;
+}
+/* 
+align-items: center;
+display: flex;
+justify-content: space-around;
+} */
