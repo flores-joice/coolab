@@ -571,3 +571,43 @@ body{
 
 
 
+/* footer-contador */
+
+.section-contador{
+  background-color: #C7CEDD;
+  background: url("../assest/textura.png");
+  height: 15rem;
+
+}
+.contador{
+  background: url("../assest/textura.png");
+  background-size: cover;
+  height: 15rem;
+  
+
+}
+
+.contador-grande{
+  display: flex;
+ 
+    flex-direction: column;
+    align-items: center;
+
+}
+.contador-grande span,{
+  color: white;
+} 
+
+
+
+.contador-grande > span {
+  font-size: 5rem;
+  color: white;
+}
+
+.contador-grande > p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+
+}
