@@ -5,6 +5,9 @@
   color: #1E2738;
 }
 
+body{
+  background: #E7EBF4;
+}
 
 a:hover {
   text-decoration: none;
@@ -134,6 +137,10 @@ a.nav-item-link:hover {
   
   .nav-3, .nav-4 {
     align-items: center!important;
+  }
+
+  .nav-4 p {
+    text-align: center;
   }
   
   .nav-link-barra {
@@ -310,9 +317,6 @@ a.nav-item-link:hover {
   font-size: 0.875rem;
 }
 
-body{
-  background: #E7EBF4;
-}
 .galeria-post {
   column-count: 3;
   column-gap: 5px;
